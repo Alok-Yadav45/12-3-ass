@@ -10,7 +10,7 @@ export default function Home() {
         <a href="#" className="navbar-a">About</a>
         <a href="#" className="navbar-a">Services</a>
         <a href="#" className="navbar-a">Contact</a>
-      </div>
+      </div> 
     </nav>
     <div className="heading">
       <h1 className="main-heading">Sample Heading</h1>
@@ -30,10 +30,12 @@ export default function Home() {
         <div className="body">
           <h3 className="title">Feature Label</h3>
           <p className="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.ea commodo consequat.
           </p>
+          <div className="btn-container">
           <button className="btn1">Buy Now!</button>
           <button className="btn2">More Info</button>
+          </div>
         </div>
       </div>
       <div className="card">
@@ -43,10 +45,12 @@ export default function Home() {
         <div className="body">
           <h3 className="title">Feature Label</h3>
           <p className="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.ea commodo consequat.
           </p>
+          <div className="btn-container">
           <button className="btn1">Buy Now!</button>
           <button className="btn2">More Info</button>
+          </div>
         </div>
       </div>
       <div className="card">
@@ -56,10 +60,12 @@ export default function Home() {
         <div className="body">
           <h3 className="title">Feature Label</h3>
           <p className="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.ea commodo consequat.
           </p>
+         <div className="btn-container">
           <button className="btn1">Buy Now!</button>
           <button className="btn2">More Info</button>
+          </div>
         </div>
       </div>
       <div className="card">
@@ -69,15 +75,17 @@ export default function Home() {
         <div className="body">
           <h3 className="title">Feature Label</h3>
           <p className="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.ea commodo consequat.
           </p>
+          <div className="btn-container">
           <button className="btn1">Buy Now!</button>
           <button className="btn2">More Info</button>
+          </div>
         </div>
       </div>
     </div>
      <footer className="footer">
-      Copyright  Your Website 2014
+      Copyright  Your Website 2014 
     </footer>
     </>
   );
